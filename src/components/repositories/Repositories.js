@@ -21,7 +21,7 @@ class Repositories extends Component {
 
   handlePress = e => {
     if (e.keyCode === 13) {
-      this.props.findRepositories(this.state.user);
+      this.props.findRepositories(this.state.repository);
     }
   };
 
